@@ -47,11 +47,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <div>
-        
-      </div>
-
+      
       <div className="flex items-center justify-between max-h-screen px-8 pb-4 font-sans bg-gray-100">
         <div className="max-w-xl">
           <div className="overflow-hidden bg-white shadow-sm rounded-xl">
@@ -66,9 +62,10 @@ export default function Home() {
                 src={logoLapor}
                 alt="Logo Lapor"
               />
-              <div><a href="https://www.lapor.go.id/" target="_blank">Layanan Pengadaan Laporan Aspirasi dan</a></div>
+              <div>
+              Layanan Pengadaan Laporan Aspirasi dan Pengaduan Online Rakyat
+              </div>
             </div>
-            <div className="px-4 py-2.5">Pengaduan Online Rakyat</div>
             <div className="px-4 py-2.5">Aplikasi Pengaduan dan Aspirasi (SAPA)</div>
           </div>
         </div>
